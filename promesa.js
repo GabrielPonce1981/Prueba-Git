@@ -18,10 +18,10 @@ const suma = (a,b) => {
 
 suma(10,20)
 .then(resultadoSuma => {
-    console.log("El resultado de la suma es: ", resultadoSuma);
+    console.log("El resultado de la suma es: ", resultadoSuma);//resolve
 })
 .catch(error => {
-    console.log("Error: no se permiten numero negativos ", error);
+    console.log("Error: no se permiten numero negativos ", error);//reject
 })
 
 console.log("Fin del programa");

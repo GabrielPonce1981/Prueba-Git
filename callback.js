@@ -29,12 +29,12 @@ const suma = (a,b, callback) => {
     }
 };
 
-suma(-8,20, (error, resultado) => {//para manejar los errores vamos a ver en detalle con promesas
+suma(8,20, (error, resultado) => {//para manejar los errores vamos a ver en detalle con promesas
     if (error) {
         console.log("Error", error);
     }
     else {
-        console.log(resultado);
+        console.log(" El resultado de la suma es: " + resultado);
     }
 });
 
